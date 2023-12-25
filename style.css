@@ -1,0 +1,271 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header {
+    background-color: beige;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    color: #E5989B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+ 
+}
+.navigation a{
+    color: #E5989B;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:#6D6875;
+}
+  
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/backkkk.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main h2{
+    color:#E5989B;
+    font-size: 3em;
+    font-weight: 700;
+
+}
+.main h3{
+     color: #e5989b;
+     font-size: 1.9em;
+     font-weight: 500;
+     letter-spacing: 1px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+
+}
+.main-btn{
+    color: #ffe8d6;
+    background-color: #6D6875;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+    
+}
+.main-btn:hover{
+    background-color: #6d6879;
+    transform: scale(1.1);
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #E5989B;
+    font-size: 2.4em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 21.25em;
+}
+
+.card:hover{
+     transform: scale(1.1);
+}
+ 
+.my-button{
+    display: inline-block;
+    padding: 10px 20px ;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #ffe8d6;
+    border-radius:  5px;
+    color: #ffe8d6;
+    background-color: #e5989b;
+    transition: background-color 0.3s,color 0.3s;
+}
+
+.my-button:hover{
+    background-color: #6D6875;
+    color: #E5989B;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #E5989B;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.h3{
+    color: #6D6875;
+}
+
+.product{
+    background-color: beige;
+
+}
+.product .contant{
+    margin-top: 30px;
+}
+.product-card{
+    background-color: #e5989b;
+    border: 1px solid #e5989b;
+    min-height: 14em;
+    width: 32em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.product-card:hover{
+    transform: scale(1.1);
+}
+.product-image img{
+ width: 100%;
+}
+
+.product-info{
+    padding: 1em;
+}
+
+.product-category{
+    font-size:0.8em ;
+    color: #6D6875;
+}
+
+.product-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.more-details{
+    text-decoration: none;
+    color: beige;
+}
+.more-details:hover{
+    color: beige;
+}
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/photo_٢٠٢٣-١١-٢٦_١٢-٥٢-٤٢.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about h1{
+    color:#E5989B;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.about h3{
+    color: #e5989b;
+    font-size: 1.9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #E5989B;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #E5989B;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc
+}
+
+button {
+    background-color:#6D6875;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d6879;
+    transform: scale(1.1);
+}
